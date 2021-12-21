@@ -1,0 +1,7 @@
+mysql-ctl cli; 
+
+show databases; 
+
+CREATE DATABASE database_name; 
+
+CREATE DATABASE candy_store;
