@@ -1,0 +1,65 @@
+--1--
+mysql-ctl cli; 
+show databases; 
+--CREATE DATABASE database_name; --
+CREATE DATABASE candy_store;
+
+
+
+--2--
+--DROP DATABASE database_name; --
+DROP DATABASE hello_world_db; 
+
+
+
+--3--
+USE dog_walking_app;
+SELECT database();
+
+
+
+--4--
+/*CREATE TABLE tablename
+  (
+    column_name data_type,
+    column_name data_type
+  ); */
+  
+CREATE TABLE cats
+  (
+    name VARCHAR(100),
+    age INT
+  );
+  
+  
+  
+ --5--
+SHOW TABLES;
+ 
+SHOW COLUMNS FROM tablename;
+ 
+DESC tablename;
+
+
+
+--6--
+--DROP TABLE <tablename>; --
+
+DROP TABLE cats; 
+
+--Be careful with this command!--
+
+
+
+--7--
+CREATE TABLE pastries
+  (
+    name VARCHAR(50),
+    quantity INT
+  );
+ 
+SHOW TABLES;
+ 
+DESC pastries;
+ 
+DROP TABLE pastries;
